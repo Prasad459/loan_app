@@ -16,7 +16,7 @@ import requests
 # initialize driver with browser
 driver = webdriver.Chrome()
 # test deployment url
-url = "http://ec2-52-55-166-242.compute-1.amazonaws.com:5000/"
+url = "http://ec2-54-152-82-141.compute-1.amazonaws.com:8080/"
 driver.get(url)
 response = requests.get(url)
 try:

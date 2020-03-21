@@ -14,7 +14,9 @@ from selenium.webdriver.common.keys import Keys
 import requests
 
 # initialize driver with browser
-driver = webdriver.Chrome()
+#driver = webdriver.Chrome()
+driver = webdriver.Chrome('/usr/local/bin/chromedriver')
+driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
 # test deployment url
 url = "http://ec2-54-152-82-141.compute-1.amazonaws.com:8080/"
 driver.get(url)

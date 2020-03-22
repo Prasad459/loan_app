@@ -14,7 +14,8 @@ from selenium.webdriver.common.keys import Keys
 import requests
 
 # initialize driver with browser
-driver = webdriver.Chrome()
+chromedriver = "C:\Users\Prasad\Downloads\chromedriver_win32"
+driver = webdriver.Chrome(chromedriver)
 #driver = webdriver.Chrome('/usr/local/bin/chromedriver')
 #driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
 # test deployment url

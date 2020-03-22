@@ -15,10 +15,10 @@ import requests
 
 # initialize driver with browser
 driver = webdriver.Chrome()
-driver = webdriver.Chrome('/usr/local/bin/chromedriver')
-driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
+#driver = webdriver.Chrome('/usr/local/bin/chromedriver')
+#driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver')
 # test deployment url
-url = "http://ec2-34-207-164-207.compute-1.amazonaws.com:8080/"
+url = "http://localhost:8080/"
 driver.get(url)
 response = requests.get(url)
 try:

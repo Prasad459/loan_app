@@ -1,3 +1,4 @@
 LoanAppLog.txt
-	TestDB.db
-	loan_data.db
+TestDB.db
+loan_data.db
+.gitignore
